@@ -1,0 +1,253 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripMenuItemFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="toolStripMenuItemFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="toolStripMenuItemSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="toolStripMenuItemSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="toolStripMenuItemHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="toolStripMenuItemHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="toolStripMenuItemNewsheet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemNewsheet.Text" xml:space="preserve">
+    <value>New sheet</value>
+  </data>
+  <data name="toolStripMenuItemLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemLoad.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="toolStripSeparatorSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="toolStripMenuItemSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="toolStripMenuItemSaveas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemSaveas.Text" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="toolStripSeparatorExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="toolStripMenuItemExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="toolStripMenuItemLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="toolStripMenuItemPl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemEn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItemAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
+  </data>
+  <data name="toolStripMenuItemAbout.Text" xml:space="preserve">
+    <value>About Payment Notebook</value>
+  </data>
+  <data name="tabPageOverview.Text" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="overGroupBoxSummary.Text" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="overCheckBoxAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
+  </data>
+  <data name="overCheckBoxAdvanced.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="overLabelPayables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="overLabelPayables.Text" xml:space="preserve">
+    <value>Payables</value>
+  </data>
+  <data name="overLabelReceivables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 15</value>
+  </data>
+  <data name="overLabelReceivables.Text" xml:space="preserve">
+    <value>Receivables</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="overLabelTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="overLabelTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 15</value>
+  </data>
+  <data name="overLabelTotal.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="overListViewTransactions.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
+        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5DAMAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNp
+        b249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNh
+        BQEAAAAhU3lzdGVtLldpbmRvd3MuRm9ybXMuTGlzdFZpZXdJdGVtBwAAAARUZXh0CkltYWdlSW5kZXgJ
+        QmFja0NvbG9yB0NoZWNrZWQERm9udAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAQA
+        BAQACBRTeXN0ZW0uRHJhd2luZy5Db2xvcgMAAAABE1N5c3RlbS5EcmF3aW5nLkZvbnQDAAAAFFN5c3Rl
+        bS5EcmF3aW5nLkNvbG9yAwAAAAECAAAABgQAAAADeXVw/////wX7////FFN5c3RlbS5EcmF3aW5nLkNv
+        bG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgAAQAA
+        CQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5h
+        bWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0u
+        RHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAACFNlZ29lIFVJAAAQQQX3////GFN5c3RlbS5E
+        cmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtTeXN0ZW0uRHJhd2luZy5H
+        cmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="overColumnHeaderDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="overColumnHeaderPerson.Text" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="overColumnHeaderDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="overColumnHeaderDescription.Width" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="overColumnHeaderObligationtype.Text" xml:space="preserve">
+    <value>Obligation Type</value>
+  </data>
+  <data name="overColumnHeaderAmount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="overColumnHeaderAmount.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="overGroupBoxContractors.Text" xml:space="preserve">
+    <value>Listing</value>
+  </data>
+  <data name="tabPageEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editButtonAddlisting.Text" xml:space="preserve">
+    <value>Add Listing</value>
+  </data>
+  <data name="editGroupBoxModDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 220</value>
+  </data>
+  <data name="editGroupBoxModDetails.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="editCheckBoxTodaydate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 19</value>
+  </data>
+  <data name="editCheckBoxTodaydate.Text" xml:space="preserve">
+    <value>Save with today's date</value>
+  </data>
+  <data name="editLabelObligationtype.Text" xml:space="preserve">
+    <value>Obligation type:</value>
+  </data>
+  <data name="editLabelAmount.Text" xml:space="preserve">
+    <value>Amount:</value>
+  </data>
+  <data name="editLabelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="editLabelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 15</value>
+  </data>
+  <data name="editLabelName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="editLabelDate.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="editLabelDescription.Text" xml:space="preserve">
+    <value>Description (optional):</value>
+  </data>
+  <data name="editGroupBoxListing.Text" xml:space="preserve">
+    <value>Listing</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Payment Notebook</value>
+  </data>
+</root>
