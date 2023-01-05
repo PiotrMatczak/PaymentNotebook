@@ -17,6 +17,22 @@ namespace PaymentNotebook
             System.Threading.Thread.CurrentThread.CurrentCulture = culture;
             System.Threading.Thread.CurrentThread.CurrentUICulture = culture;*/
             InitializeComponent();
+            if (Program.fileArgs.Length > 1)
+            {
+                string filePath = Program.fileArgs[1];
+                string deserializeString = File.ReadAllText(filePath);
+                this.Text = $"{UtilitiesGeneral.GetFilenameWithoutPath(filePath)} - {Program.selectedLanguage.MainFormTextString}";
+                try
+                {
+                    var deserializedObject = JsonConvert.DeserializeObject<ListWithCounter<Entry>>(deserializeString);
+                    Program.entryList = deserializedObject;
+                    openFileDialogMain.FileName = saveFileDialogMain.FileName = filePath;
+                }
+                catch
+                {
+                    MessageBox.Show(Program.selectedLanguage.DeserializeUnsuccessful, Program.selectedLanguage.ErrorString, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
             refreshCurrentTabAction(this, new EventArgs());
         }
 

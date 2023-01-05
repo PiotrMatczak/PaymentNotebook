@@ -24,5 +24,8 @@ Identyfikator jest przyznawany każdej transakcji automatycznie i zależy od kol
 
 Program uwzględnia wielkość liter - "Jan Kowalski" będzie uznawany za inną osobę niż "jan kowalski".
 
-
-
+## Historia Zmian
+- v1.1
+    - Dodane automatyczne wczytywanie zawartości gdy program jest uruchamiany poprzez plik json
+- v1.0
+    - Wydanie początkowe

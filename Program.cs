@@ -80,6 +80,7 @@ namespace PaymentNotebook
     {
         public static ILanguageData selectedLanguage = new LanguageData.LanguagePl();
         public static ListWithCounter<Entry> entryList = new ListWithCounter<Entry>();
+        public static string[] fileArgs;
 
         /// <summary>
         ///  The main entry point for the application.
@@ -87,6 +88,7 @@ namespace PaymentNotebook
         [STAThread]
         static void Main()
         {
+            fileArgs = Environment.GetCommandLineArgs();
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
