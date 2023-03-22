@@ -7,7 +7,7 @@ using System.Reflection;
 namespace PaymentNotebook
 {
     [JsonObject(MemberSerialization = MemberSerialization.Fields)]
-    internal class ListWithCounter<T> : List<T> where T : IEntries
+    internal class ListWithCounter<T> : List<T> where T : IEntry
     {
         private int _counter = 1;
         public new void AddRange(IEnumerable<T> collection)
@@ -28,12 +28,12 @@ namespace PaymentNotebook
         }
     }
 
-    interface IEntries
+    interface IEntry
     {
         int Id { get; init; }
     }
 
-    internal class Entry : IEntries
+    internal class Entry : IEntry
     {
         public int Id { get; init; }
         public DateTime Date { get; set; }
@@ -67,7 +67,7 @@ namespace PaymentNotebook
         }
     }
 
-    internal class Subentry : IEntries
+    internal class Subentry : IEntry
     {
         public int Id { get; init; }
         public string Name { get; set; }

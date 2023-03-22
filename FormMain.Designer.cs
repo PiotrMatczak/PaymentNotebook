@@ -134,13 +134,13 @@
             // 
             this.toolStripMenuItemNewsheet.Name = "toolStripMenuItemNewsheet";
             resources.ApplyResources(this.toolStripMenuItemNewsheet, "toolStripMenuItemNewsheet");
-            this.toolStripMenuItemNewsheet.Click += new System.EventHandler(this.newWorksheetAction);
+            this.toolStripMenuItemNewsheet.Click += new System.EventHandler(this.newWorksheet_Action);
             // 
             // toolStripMenuItemLoad
             // 
             this.toolStripMenuItemLoad.Name = "toolStripMenuItemLoad";
             resources.ApplyResources(this.toolStripMenuItemLoad, "toolStripMenuItemLoad");
-            this.toolStripMenuItemLoad.Click += new System.EventHandler(this.openFileWithDialogAction);
+            this.toolStripMenuItemLoad.Click += new System.EventHandler(this.openFileWithDialog_Action);
             // 
             // toolStripSeparatorSave
             // 
@@ -151,13 +151,13 @@
             // 
             this.toolStripMenuItemSave.Name = "toolStripMenuItemSave";
             resources.ApplyResources(this.toolStripMenuItemSave, "toolStripMenuItemSave");
-            this.toolStripMenuItemSave.Click += new System.EventHandler(this.saveQuickToFileAction);
+            this.toolStripMenuItemSave.Click += new System.EventHandler(this.saveQuickToFile_Action);
             // 
             // toolStripMenuItemSaveas
             // 
             this.toolStripMenuItemSaveas.Name = "toolStripMenuItemSaveas";
             resources.ApplyResources(this.toolStripMenuItemSaveas, "toolStripMenuItemSaveas");
-            this.toolStripMenuItemSaveas.Click += new System.EventHandler(this.saveToFileWithDialogAction);
+            this.toolStripMenuItemSaveas.Click += new System.EventHandler(this.saveToFileWithDialog_Action);
             // 
             // toolStripSeparatorExit
             // 
@@ -210,7 +210,7 @@
             // 
             this.toolStripMenuItemAbout.Name = "toolStripMenuItemAbout";
             resources.ApplyResources(this.toolStripMenuItemAbout, "toolStripMenuItemAbout");
-            this.toolStripMenuItemAbout.Click += new System.EventHandler(this.AboutBoxShowAction);
+            this.toolStripMenuItemAbout.Click += new System.EventHandler(this.AboutBoxShow_Action);
             // 
             // tabControlMain
             // 
@@ -221,7 +221,7 @@
             this.tabControlMain.Name = "tabControlMain";
             this.tabControlMain.SelectedIndex = 0;
             this.tabControlMain.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControlMain.SelectedIndexChanged += new System.EventHandler(this.refreshCurrentTabAction);
+            this.tabControlMain.SelectedIndexChanged += new System.EventHandler(this.refreshCurrentTab_Action);
             // 
             // tabPageOverview
             // 
@@ -379,7 +379,7 @@
             resources.ApplyResources(this.editButtonSaveentry, "editButtonSaveentry");
             this.editButtonSaveentry.Name = "editButtonSaveentry";
             this.editButtonSaveentry.UseVisualStyleBackColor = true;
-            this.editButtonSaveentry.Click += new System.EventHandler(this.validateAndAddEntryAction);
+            this.editButtonSaveentry.Click += new System.EventHandler(this.validateAndAddEntry_Action);
             // 
             // editButtonDeleteentry
             // 

@@ -33,7 +33,7 @@ namespace PaymentNotebook
                     MessageBox.Show(Program.selectedLanguage.DeserializeUnsuccessful, Program.selectedLanguage.ErrorString, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            refreshCurrentTabAction(this, new EventArgs());
+            refreshCurrentTab_Action(this, new EventArgs());
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace PaymentNotebook
             Application.Exit();
         }
 
-        private void refreshCurrentTabAction(object sender, EventArgs e)
+        private void refreshCurrentTab_Action(object sender, EventArgs e)
         {
             switch (tabControlMain.SelectedTab)
             {
@@ -122,7 +122,7 @@ namespace PaymentNotebook
             }
         }
 
-        private void validateAndAddEntryAction(object sender, EventArgs e)
+        private void validateAndAddEntry_Action(object sender, EventArgs e)
         {
             if (editTextBoxName.Text == String.Empty ||
                 editComboBoxObligationtype.Text == String.Empty ||
@@ -200,7 +200,7 @@ namespace PaymentNotebook
             }
         }
 
-        private void saveToFileWithDialogAction(object sender, EventArgs e)
+        private void saveToFileWithDialog_Action(object sender, EventArgs e)
         {
             string serializeString = JsonConvert.SerializeObject(Program.entryList);
             if (saveFileDialogMain.ShowDialog() == DialogResult.OK)
@@ -211,7 +211,7 @@ namespace PaymentNotebook
             }
         }
 
-        private void saveQuickToFileAction(object sender, EventArgs e)
+        private void saveQuickToFile_Action(object sender, EventArgs e)
         {
             if (openFileDialogMain.FileName != string.Empty)
             {
@@ -220,11 +220,11 @@ namespace PaymentNotebook
             }
             else
             {
-                saveToFileWithDialogAction(sender, e);
+                saveToFileWithDialog_Action(sender, e);
             }
         }
 
-        private void openFileWithDialogAction(object sender, EventArgs e)
+        private void openFileWithDialog_Action(object sender, EventArgs e)
         {
             SaveThenLoadMethod(DeserializeAndLoad);
         }
@@ -253,7 +253,7 @@ namespace PaymentNotebook
             return null;
         }
 
-        private void newWorksheetAction(object sender, EventArgs e)
+        private void newWorksheet_Action(object sender, EventArgs e)
         {
             if(SaveThenLoadMethod(() => new ListWithCounter<Entry>()))
                 this.Text = $"{UtilitiesGeneral.GetFilenameWithoutPath(Program.selectedLanguage.NewWorksheetString)} - {Program.selectedLanguage.MainFormTextString}";
@@ -277,7 +277,7 @@ namespace PaymentNotebook
                         if (loadedList != null)
                         {
                             Program.entryList = loadedList;
-                            refreshCurrentTabAction(this, new EventArgs());
+                            refreshCurrentTab_Action(this, new EventArgs());
                             return true;
                         }
                         else
@@ -296,7 +296,7 @@ namespace PaymentNotebook
                             if (loadedList != null)
                             {
                                 Program.entryList = loadedList;
-                                refreshCurrentTabAction(this, new EventArgs());
+                                refreshCurrentTab_Action(this, new EventArgs());
                                 return true;
                             }
                             else
@@ -314,7 +314,7 @@ namespace PaymentNotebook
                     if (loadedList != null)
                     {
                         Program.entryList = loadedList;
-                        refreshCurrentTabAction(this, new EventArgs());
+                        refreshCurrentTab_Action(this, new EventArgs());
                         return true;
                     }
                     else
@@ -331,7 +331,7 @@ namespace PaymentNotebook
                 e.Cancel = true;
         }
 
-        private void AboutBoxShowAction(object sender, EventArgs e)
+        private void AboutBoxShow_Action(object sender, EventArgs e)
         {
             AboutBoxMain aboutBoxMain = new AboutBoxMain();
             aboutBoxMain.ShowDialog();
