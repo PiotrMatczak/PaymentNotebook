@@ -6,15 +6,15 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <AssemblyVersion>1.1.0</AssemblyVersion>
-    <FileVersion>1.1.0</FileVersion>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion>
     <NeutralLanguage>pl</NeutralLanguage>
     <PackageLicenseFile>LICENCE.TXT</PackageLicenseFile>
     <Title>Payment Notebook</Title>
     <Authors>Piotr Matczak</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl></PackageProjectUrl>
-    <Copyright>Copyright © 2022</Copyright>
+    <Copyright>Copyright © 2022-2023</Copyright>
     <RepositoryUrl>https://github.com/PiotrMatczak/PaymentNotebook.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

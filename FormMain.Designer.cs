@@ -314,6 +314,7 @@
             this.overListViewTransactions.Name = "overListViewTransactions";
             this.overListViewTransactions.UseCompatibleStateImageBehavior = false;
             this.overListViewTransactions.View = System.Windows.Forms.View.Details;
+            this.overListViewTransactions.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.overListViewTransactions_ColumnClick);
             // 
             // overColumnHeaderId
             // 

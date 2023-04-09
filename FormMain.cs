@@ -6,17 +6,23 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Text.RegularExpressions;
 using Microsoft.VisualBasic.ApplicationServices;
+using PaymentNotebook.Objects;
 
 namespace PaymentNotebook
 {
     public partial class FormMain : Form
     {
+        private ListViewColumnSorter lvwColumnSorter;
         public FormMain()
         {
             /*System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("En");
             System.Threading.Thread.CurrentThread.CurrentCulture = culture;
             System.Threading.Thread.CurrentThread.CurrentUICulture = culture;*/
             InitializeComponent();
+            this.lvwColumnSorter = new ListViewColumnSorter();
+            overListViewTransactions.ListViewItemSorter = lvwColumnSorter;
+
+
             if (Program.fileArgs.Length > 1)
             {
                 string filePath = Program.fileArgs[1];
@@ -244,7 +250,7 @@ namespace PaymentNotebook
                     }
                     catch
                     {
-                        MessageBox.Show(Program.selectedLanguage.DeserializeUnsuccessful, Program.selectedLanguage.ErrorString, MessageBoxButtons.OK, MessageBoxIcon.Error );
+                        MessageBox.Show(Program.selectedLanguage.DeserializeUnsuccessful, Program.selectedLanguage.ErrorString, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return null;
                     }
                 }
@@ -255,7 +261,7 @@ namespace PaymentNotebook
 
         private void newWorksheet_Action(object sender, EventArgs e)
         {
-            if(SaveThenLoadMethod(() => new ListWithCounter<Entry>()))
+            if (SaveThenLoadMethod(() => new ListWithCounter<Entry>()))
                 this.Text = $"{UtilitiesGeneral.GetFilenameWithoutPath(Program.selectedLanguage.NewWorksheetString)} - {Program.selectedLanguage.MainFormTextString}";
         }
 
@@ -335,6 +341,32 @@ namespace PaymentNotebook
         {
             AboutBoxMain aboutBoxMain = new AboutBoxMain();
             aboutBoxMain.ShowDialog();
+        }
+
+        private void overListViewTransactions_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            // Determine if clicked column is already the column that is being sorted.
+            if (e.Column == lvwColumnSorter.SortColumn)
+            {
+                // Reverse the current sort direction for this column.
+                if (lvwColumnSorter.Order == SortOrder.Ascending)
+                {
+                    lvwColumnSorter.Order = SortOrder.Descending;
+                }
+                else
+                {
+                    lvwColumnSorter.Order = SortOrder.Ascending;
+                }
+            }
+            else
+            {
+                // Set the column number that is to be sorted; default to ascending.
+                lvwColumnSorter.SortColumn = e.Column;
+                lvwColumnSorter.Order = SortOrder.Ascending;
+            }
+
+            // Perform the sort with these new sort options.
+            this.overListViewTransactions.Sort();
         }
     }
 }

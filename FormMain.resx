@@ -61,97 +61,13 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStripMenuItemNewsheet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemNewsheet.Text" xml:space="preserve">
-    <value>Nowy arkusz</value>
-  </data>
-  <data name="toolStripMenuItemLoad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemLoad.Text" xml:space="preserve">
-    <value>Otwórz...</value>
-  </data>
-  <data name="toolStripSeparatorSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
-  </data>
-  <data name="toolStripMenuItemSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemSave.Text" xml:space="preserve">
-    <value>Zapisz </value>
-  </data>
-  <data name="toolStripMenuItemSaveas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemSaveas.Text" xml:space="preserve">
-    <value>Zapisz jako...</value>
-  </data>
-  <data name="toolStripSeparatorExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
-  </data>
-  <data name="toolStripMenuItemExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemExit.Text" xml:space="preserve">
-    <value>Zakończ</value>
-  </data>
-  <data name="toolStripMenuItemFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 20</value>
-  </data>
-  <data name="toolStripMenuItemFile.Text" xml:space="preserve">
-    <value>Plik</value>
-  </data>
-  <data name="toolStripMenuItemPl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemPl.Text" xml:space="preserve">
-    <value>Polski</value>
-  </data>
-  <data name="toolStripMenuItemEn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemEn.Text" xml:space="preserve">
-    <value>Angielski</value>
-  </data>
-  <data name="toolStripMenuItemLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemLanguage.Text" xml:space="preserve">
-    <value>Język</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="toolStripMenuItemSettings.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripMenuItemSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
-  </data>
-  <data name="toolStripMenuItemSettings.Text" xml:space="preserve">
-    <value>Ustawienia</value>
-  </data>
-  <data name="toolStripMenuItemSettings.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripMenuItemAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="toolStripMenuItemAbout.Text" xml:space="preserve">
-    <value>O programie</value>
-  </data>
-  <data name="toolStripMenuItemHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="toolStripMenuItemHelp.Text" xml:space="preserve">
-    <value>Pomoc</value>
-  </data>
   <data name="menuStripMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStripMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>921, 24</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStripMain.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -170,9 +86,382 @@
   <data name="&gt;&gt;menuStripMain.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="toolStripMenuItemFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="toolStripMenuItemFile.Text" xml:space="preserve">
+    <value>Plik</value>
+  </data>
+  <data name="toolStripMenuItemNewsheet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="toolStripMenuItemNewsheet.Text" xml:space="preserve">
+    <value>Nowy arkusz</value>
+  </data>
+  <data name="toolStripMenuItemLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="toolStripMenuItemLoad.Text" xml:space="preserve">
+    <value>Otwórz...</value>
+  </data>
+  <data name="toolStripSeparatorSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 6</value>
+  </data>
+  <data name="toolStripMenuItemSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="toolStripMenuItemSave.Text" xml:space="preserve">
+    <value>Zapisz </value>
+  </data>
+  <data name="toolStripMenuItemSaveas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="toolStripMenuItemSaveas.Text" xml:space="preserve">
+    <value>Zapisz jako...</value>
+  </data>
+  <data name="toolStripSeparatorExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 6</value>
+  </data>
+  <data name="toolStripMenuItemExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="toolStripMenuItemExit.Text" xml:space="preserve">
+    <value>Zakończ</value>
+  </data>
+  <data name="toolStripMenuItemSettings.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItemSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="toolStripMenuItemSettings.Text" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="toolStripMenuItemSettings.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItemLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
+  </data>
+  <data name="toolStripMenuItemLanguage.Text" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="toolStripMenuItemPl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="toolStripMenuItemPl.Text" xml:space="preserve">
+    <value>Polski</value>
+  </data>
+  <data name="toolStripMenuItemEn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="toolStripMenuItemEn.Text" xml:space="preserve">
+    <value>Angielski</value>
+  </data>
+  <data name="toolStripMenuItemHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="toolStripMenuItemHelp.Text" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="toolStripMenuItemAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="toolStripMenuItemAbout.Text" xml:space="preserve">
+    <value>O programie</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="overGroupBoxSummary.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxOnlypending.Name" xml:space="preserve">
+    <value>overCheckBoxOnlypending</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxOnlypending.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxOnlypending.Parent" xml:space="preserve">
+    <value>overGroupBoxSummary</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxOnlypending.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxAdvanced.Name" xml:space="preserve">
+    <value>overCheckBoxAdvanced</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxAdvanced.Parent" xml:space="preserve">
+    <value>overGroupBoxSummary</value>
+  </data>
+  <data name="&gt;&gt;overCheckBoxAdvanced.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.Name" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.Parent" xml:space="preserve">
+    <value>overGroupBoxSummary</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="overTableLayoutPanelSummary.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="overTextBoxReceivables" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overTextBoxPayables" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelPayables" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelTotal" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overTextBoxSum" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelReceivables" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,12,5,Percent,20,83333,Percent,12,5,Percent,20,83333,Percent,12,5,Percent,20,83333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="overGroupBoxSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 92</value>
+  </data>
+  <data name="overGroupBoxSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 287</value>
+  </data>
+  <data name="overGroupBoxSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="overGroupBoxSummary.Text" xml:space="preserve">
+    <value>Podsumowanie</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxSummary.Name" xml:space="preserve">
+    <value>overGroupBoxSummary</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxSummary.Parent" xml:space="preserve">
+    <value>tabPageOverview</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="overListViewTransactions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="overColumnHeaderId.Text" xml:space="preserve">
+    <value>Identyfikator</value>
+  </data>
+  <data name="overColumnHeaderId.Width" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="overColumnHeaderDate.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="overColumnHeaderDate.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="overColumnHeaderPerson.Text" xml:space="preserve">
+    <value>Osoba</value>
+  </data>
+  <data name="overColumnHeaderPerson.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="overColumnHeaderDescription.Text" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="overColumnHeaderDescription.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="overColumnHeaderObligationtype.Text" xml:space="preserve">
+    <value>Typ Zobowiązania</value>
+  </data>
+  <data name="overColumnHeaderObligationtype.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="overColumnHeaderAmount.Text" xml:space="preserve">
+    <value>Kwota</value>
+  </data>
+  <data name="overColumnHeaderAmount.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="overColumnHeaderStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="overColumnHeaderStatus.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="overListViewTransactions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 92</value>
+  </data>
+  <data name="overListViewTransactions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 287</value>
+  </data>
+  <data name="overListViewTransactions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;overListViewTransactions.Name" xml:space="preserve">
+    <value>overListViewTransactions</value>
+  </data>
+  <data name="&gt;&gt;overListViewTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overListViewTransactions.Parent" xml:space="preserve">
+    <value>tabPageOverview</value>
+  </data>
+  <data name="&gt;&gt;overListViewTransactions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="overGroupBoxContractors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;overComboBoxContractorlist.Name" xml:space="preserve">
+    <value>overComboBoxContractorlist</value>
+  </data>
+  <data name="&gt;&gt;overComboBoxContractorlist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overComboBoxContractorlist.Parent" xml:space="preserve">
+    <value>overGroupBoxContractors</value>
+  </data>
+  <data name="&gt;&gt;overComboBoxContractorlist.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="overGroupBoxContractors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="overGroupBoxContractors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>875, 54</value>
+  </data>
+  <data name="overGroupBoxContractors.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="overGroupBoxContractors.Text" xml:space="preserve">
+    <value>Kontrahent</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxContractors.Name" xml:space="preserve">
+    <value>overGroupBoxContractors</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxContractors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxContractors.Parent" xml:space="preserve">
+    <value>tabPageOverview</value>
+  </data>
+  <data name="&gt;&gt;overGroupBoxContractors.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageOverview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageOverview.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 15</value>
+  </data>
+  <data name="tabPageOverview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 409</value>
+  </data>
+  <data name="tabPageOverview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageOverview.Text" xml:space="preserve">
+    <value>Przegląd</value>
+  </data>
+  <data name="&gt;&gt;tabPageOverview.Name" xml:space="preserve">
+    <value>tabPageOverview</value>
+  </data>
+  <data name="&gt;&gt;tabPageOverview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageOverview.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPageOverview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.Name" xml:space="preserve">
+    <value>editTableLayoutPanelButtons</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.Parent" xml:space="preserve">
+    <value>tabPageEdit</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editButtonSaveentry" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editButtonDeleteentry" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,62,658226,Percent,37,341774" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.Name" xml:space="preserve">
+    <value>editGroupBoxModDetails</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.Parent" xml:space="preserve">
+    <value>tabPageEdit</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxListing.Name" xml:space="preserve">
+    <value>editGroupBoxListing</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxListing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxListing.Parent" xml:space="preserve">
+    <value>tabPageEdit</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxListing.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabPageEdit.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 409</value>
+  </data>
+  <data name="tabPageEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageEdit.Text" xml:space="preserve">
+    <value>Modyfikacja</value>
+  </data>
+  <data name="&gt;&gt;tabPageEdit.Name" xml:space="preserve">
+    <value>tabPageEdit</value>
+  </data>
+  <data name="&gt;&gt;tabPageEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageEdit.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPageEdit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControlMain.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>921, 437</value>
+  </data>
+  <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Name" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="overCheckBoxOnlypending.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -239,6 +528,105 @@
   </data>
   <data name="overTableLayoutPanelSummary.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxReceivables.Name" xml:space="preserve">
+    <value>overTextBoxReceivables</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxReceivables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxReceivables.Parent" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxReceivables.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxPayables.Name" xml:space="preserve">
+    <value>overTextBoxPayables</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxPayables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxPayables.Parent" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxPayables.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;overLabelPayables.Name" xml:space="preserve">
+    <value>overLabelPayables</value>
+  </data>
+  <data name="&gt;&gt;overLabelPayables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overLabelPayables.Parent" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overLabelPayables.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;overLabelTotal.Name" xml:space="preserve">
+    <value>overLabelTotal</value>
+  </data>
+  <data name="&gt;&gt;overLabelTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overLabelTotal.Parent" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overLabelTotal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxSum.Name" xml:space="preserve">
+    <value>overTextBoxSum</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxSum.Parent" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overTextBoxSum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;overLabelReceivables.Name" xml:space="preserve">
+    <value>overLabelReceivables</value>
+  </data>
+  <data name="&gt;&gt;overLabelReceivables.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overLabelReceivables.Parent" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overLabelReceivables.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="overTableLayoutPanelSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 31</value>
+  </data>
+  <data name="overTableLayoutPanelSummary.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="overTableLayoutPanelSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 179</value>
+  </data>
+  <data name="overTableLayoutPanelSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.Name" xml:space="preserve">
+    <value>overTableLayoutPanelSummary</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.Parent" xml:space="preserve">
+    <value>overGroupBoxSummary</value>
+  </data>
+  <data name="&gt;&gt;overTableLayoutPanelSummary.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="overTableLayoutPanelSummary.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="overTextBoxReceivables" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overTextBoxPayables" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelPayables" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelTotal" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overTextBoxSum" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelReceivables" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,12,5,Percent,20,83333,Percent,12,5,Percent,20,83333,Percent,12,5,Percent,20,83333" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="overTextBoxReceivables.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 84</value>
@@ -402,133 +790,12 @@
   <data name="&gt;&gt;overLabelReceivables.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="overTableLayoutPanelSummary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 31</value>
-  </data>
-  <data name="overTableLayoutPanelSummary.RowCount" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="overTableLayoutPanelSummary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 179</value>
-  </data>
-  <data name="overTableLayoutPanelSummary.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;overTableLayoutPanelSummary.Name" xml:space="preserve">
-    <value>overTableLayoutPanelSummary</value>
-  </data>
-  <data name="&gt;&gt;overTableLayoutPanelSummary.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;overTableLayoutPanelSummary.Parent" xml:space="preserve">
-    <value>overGroupBoxSummary</value>
-  </data>
-  <data name="&gt;&gt;overTableLayoutPanelSummary.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="overTableLayoutPanelSummary.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="overTextBoxReceivables" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overTextBoxPayables" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelPayables" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelTotal" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overTextBoxSum" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="overLabelReceivables" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,12,5,Percent,20,83333,Percent,12,5,Percent,20,83333,Percent,12,5,Percent,20,83333" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="overGroupBoxSummary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>671, 92</value>
-  </data>
-  <data name="overGroupBoxSummary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 287</value>
-  </data>
-  <data name="overGroupBoxSummary.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="overGroupBoxSummary.Text" xml:space="preserve">
-    <value>Podsumowanie</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxSummary.Name" xml:space="preserve">
-    <value>overGroupBoxSummary</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxSummary.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxSummary.Parent" xml:space="preserve">
-    <value>tabPageOverview</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxSummary.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="overListViewTransactions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="overColumnHeaderId.Text" xml:space="preserve">
-    <value>Identyfikator</value>
-  </data>
-  <data name="overColumnHeaderId.Width" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="overColumnHeaderDate.Text" xml:space="preserve">
-    <value>Data</value>
-  </data>
-  <data name="overColumnHeaderDate.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="overColumnHeaderPerson.Text" xml:space="preserve">
-    <value>Osoba</value>
-  </data>
-  <data name="overColumnHeaderPerson.Width" type="System.Int32, mscorlib">
-    <value>110</value>
-  </data>
-  <data name="overColumnHeaderDescription.Text" xml:space="preserve">
-    <value>Opis</value>
-  </data>
-  <data name="overColumnHeaderDescription.Width" type="System.Int32, mscorlib">
-    <value>180</value>
-  </data>
-  <data name="overColumnHeaderObligationtype.Text" xml:space="preserve">
-    <value>Typ Zobowiązania</value>
-  </data>
-  <data name="overColumnHeaderObligationtype.Width" type="System.Int32, mscorlib">
-    <value>107</value>
-  </data>
-  <data name="overColumnHeaderAmount.Text" xml:space="preserve">
-    <value>Kwota</value>
-  </data>
-  <data name="overColumnHeaderAmount.Width" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="overColumnHeaderStatus.Text" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="overColumnHeaderStatus.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="overListViewTransactions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 92</value>
-  </data>
-  <data name="overListViewTransactions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>647, 287</value>
-  </data>
-  <data name="overListViewTransactions.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;overListViewTransactions.Name" xml:space="preserve">
-    <value>overListViewTransactions</value>
-  </data>
-  <data name="&gt;&gt;overListViewTransactions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;overListViewTransactions.Parent" xml:space="preserve">
-    <value>tabPageOverview</value>
-  </data>
-  <data name="&gt;&gt;overListViewTransactions.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="overGroupBoxContractors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
   <data name="overComboBoxContractorlist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="overComboBoxContractorlist.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 20</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="overComboBoxContractorlist.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>8, 8, 8, 8</value>
   </data>
@@ -550,62 +817,65 @@
   <data name="&gt;&gt;overComboBoxContractorlist.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="overGroupBoxContractors.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 18</value>
-  </data>
-  <data name="overGroupBoxContractors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>875, 54</value>
-  </data>
-  <data name="overGroupBoxContractors.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="overGroupBoxContractors.Text" xml:space="preserve">
-    <value>Kontrahent</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxContractors.Name" xml:space="preserve">
-    <value>overGroupBoxContractors</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxContractors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxContractors.Parent" xml:space="preserve">
-    <value>tabPageOverview</value>
-  </data>
-  <data name="&gt;&gt;overGroupBoxContractors.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabPageOverview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
-  </data>
-  <data name="tabPageOverview.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>15, 15, 15, 15</value>
-  </data>
-  <data name="tabPageOverview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>913, 409</value>
-  </data>
-  <data name="tabPageOverview.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPageOverview.Text" xml:space="preserve">
-    <value>Przegląd</value>
-  </data>
-  <data name="&gt;&gt;tabPageOverview.Name" xml:space="preserve">
-    <value>tabPageOverview</value>
-  </data>
-  <data name="&gt;&gt;tabPageOverview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageOverview.Parent" xml:space="preserve">
-    <value>tabControlMain</value>
-  </data>
-  <data name="&gt;&gt;tabPageOverview.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="editTableLayoutPanelButtons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
   <data name="editTableLayoutPanelButtons.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;editButtonSaveentry.Name" xml:space="preserve">
+    <value>editButtonSaveentry</value>
+  </data>
+  <data name="&gt;&gt;editButtonSaveentry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonSaveentry.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelButtons</value>
+  </data>
+  <data name="&gt;&gt;editButtonSaveentry.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editButtonDeleteentry.Name" xml:space="preserve">
+    <value>editButtonDeleteentry</value>
+  </data>
+  <data name="&gt;&gt;editButtonDeleteentry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editButtonDeleteentry.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelButtons</value>
+  </data>
+  <data name="&gt;&gt;editButtonDeleteentry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 357</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 8, 3, 8</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 41</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.Name" xml:space="preserve">
+    <value>editTableLayoutPanelButtons</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.Parent" xml:space="preserve">
+    <value>tabPageEdit</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editTableLayoutPanelButtons.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editButtonSaveentry" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editButtonDeleteentry" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,62,658226,Percent,37,341774" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="editButtonSaveentry.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -667,44 +937,167 @@
   <data name="&gt;&gt;editButtonDeleteentry.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="editTableLayoutPanelButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>735, 357</value>
-  </data>
-  <data name="editTableLayoutPanelButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 8, 3, 8</value>
-  </data>
-  <data name="editTableLayoutPanelButtons.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="editTableLayoutPanelButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 41</value>
-  </data>
-  <data name="editTableLayoutPanelButtons.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelButtons.Name" xml:space="preserve">
-    <value>editTableLayoutPanelButtons</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelButtons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelButtons.Parent" xml:space="preserve">
-    <value>tabPageEdit</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelButtons.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="editTableLayoutPanelButtons.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editButtonSaveentry" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editButtonDeleteentry" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,62,658226,Percent,37,341774" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="editGroupBoxModDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.Name" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.Parent" xml:space="preserve">
+    <value>editGroupBoxModDetails</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editTableLayoutPanelRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editLabelObligationtype" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editComboBoxObligationtype" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelAmount" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxAmount" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelPaymentstatus" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editComboBoxPaymentstatus" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,90,AutoSize,0" /&gt;&lt;Rows Styles="Percent,33,333332,Percent,33,333332,Percent,33,333332" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.Name" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.Parent" xml:space="preserve">
+    <value>editGroupBoxModDetails</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editTableLayoutPanelLeft.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editTableLayoutPanelDatefield" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelId" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelDate" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelDescription" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxDescription" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxId" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,90,AutoSize,0" /&gt;&lt;Rows Styles="Percent,24,998129,Percent,25,000628,Percent,25,000628,Percent,25,000628" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="editGroupBoxModDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 78</value>
+  </data>
+  <data name="editGroupBoxModDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 268</value>
+  </data>
+  <data name="editGroupBoxModDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="editGroupBoxModDetails.Text" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.Name" xml:space="preserve">
+    <value>editGroupBoxModDetails</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.Parent" xml:space="preserve">
+    <value>tabPageEdit</value>
+  </data>
+  <data name="&gt;&gt;editGroupBoxModDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="editTableLayoutPanelRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
   </data>
   <data name="editTableLayoutPanelRight.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;editLabelObligationtype.Name" xml:space="preserve">
+    <value>editLabelObligationtype</value>
+  </data>
+  <data name="&gt;&gt;editLabelObligationtype.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelObligationtype.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editLabelObligationtype.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxObligationtype.Name" xml:space="preserve">
+    <value>editComboBoxObligationtype</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxObligationtype.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxObligationtype.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxObligationtype.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editLabelAmount.Name" xml:space="preserve">
+    <value>editLabelAmount</value>
+  </data>
+  <data name="&gt;&gt;editLabelAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelAmount.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editLabelAmount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxAmount.Name" xml:space="preserve">
+    <value>editTextBoxAmount</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxAmount.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxAmount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;editLabelPaymentstatus.Name" xml:space="preserve">
+    <value>editLabelPaymentstatus</value>
+  </data>
+  <data name="&gt;&gt;editLabelPaymentstatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelPaymentstatus.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editLabelPaymentstatus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxPaymentstatus.Name" xml:space="preserve">
+    <value>editComboBoxPaymentstatus</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxPaymentstatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxPaymentstatus.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editComboBoxPaymentstatus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="editTableLayoutPanelRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 12</value>
+  </data>
+  <data name="editTableLayoutPanelRight.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="editTableLayoutPanelRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 186</value>
+  </data>
+  <data name="editTableLayoutPanelRight.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.Name" xml:space="preserve">
+    <value>editTableLayoutPanelRight</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.Parent" xml:space="preserve">
+    <value>editGroupBoxModDetails</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editTableLayoutPanelRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editLabelObligationtype" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editComboBoxObligationtype" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelAmount" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxAmount" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelPaymentstatus" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editComboBoxPaymentstatus" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,90,AutoSize,0" /&gt;&lt;Rows Styles="Percent,33,333332,Percent,33,333332,Percent,33,333332" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="editLabelObligationtype.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -883,41 +1276,197 @@
   <data name="&gt;&gt;editComboBoxPaymentstatus.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="editTableLayoutPanelRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 12</value>
-  </data>
-  <data name="editTableLayoutPanelRight.RowCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="editTableLayoutPanelRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 186</value>
-  </data>
-  <data name="editTableLayoutPanelRight.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelRight.Name" xml:space="preserve">
-    <value>editTableLayoutPanelRight</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelRight.Parent" xml:space="preserve">
-    <value>editGroupBoxModDetails</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelRight.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="editTableLayoutPanelRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editLabelObligationtype" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editComboBoxObligationtype" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelAmount" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxAmount" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelPaymentstatus" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editComboBoxPaymentstatus" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,90,AutoSize,0" /&gt;&lt;Rows Styles="Percent,33,333332,Percent,33,333332,Percent,33,333332" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="editTableLayoutPanelLeft.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
   <data name="editTableLayoutPanelLeft.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.Name" xml:space="preserve">
+    <value>editTableLayoutPanelDatefield</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editCheckBoxTodaydate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editDateTimePickerDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,62,686565,Percent,37,313435" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxName.Name" xml:space="preserve">
+    <value>editTextBoxName</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxName.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editLabelId.Name" xml:space="preserve">
+    <value>editLabelId</value>
+  </data>
+  <data name="&gt;&gt;editLabelId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelId.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editLabelId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;editLabelName.Name" xml:space="preserve">
+    <value>editLabelName</value>
+  </data>
+  <data name="&gt;&gt;editLabelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelName.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editLabelName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;editLabelDate.Name" xml:space="preserve">
+    <value>editLabelDate</value>
+  </data>
+  <data name="&gt;&gt;editLabelDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelDate.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editLabelDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;editLabelDescription.Name" xml:space="preserve">
+    <value>editLabelDescription</value>
+  </data>
+  <data name="&gt;&gt;editLabelDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editLabelDescription.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editLabelDescription.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxDescription.Name" xml:space="preserve">
+    <value>editTextBoxDescription</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxDescription.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxDescription.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxId.Name" xml:space="preserve">
+    <value>editTextBoxId</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxId.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTextBoxId.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="editTableLayoutPanelLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="editTableLayoutPanelLeft.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="editTableLayoutPanelLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 250</value>
+  </data>
+  <data name="editTableLayoutPanelLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.Name" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.Parent" xml:space="preserve">
+    <value>editGroupBoxModDetails</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editTableLayoutPanelLeft.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editTableLayoutPanelDatefield" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelId" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelDate" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelDescription" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxDescription" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxId" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,90,AutoSize,0" /&gt;&lt;Rows Styles="Percent,24,998129,Percent,25,000628,Percent,25,000628,Percent,25,000628" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
   <data name="editTableLayoutPanelDatefield.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxTodaydate.Name" xml:space="preserve">
+    <value>editCheckBoxTodaydate</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxTodaydate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxTodaydate.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelDatefield</value>
+  </data>
+  <data name="&gt;&gt;editCheckBoxTodaydate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editDateTimePickerDate.Name" xml:space="preserve">
+    <value>editDateTimePickerDate</value>
+  </data>
+  <data name="&gt;&gt;editDateTimePickerDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editDateTimePickerDate.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelDatefield</value>
+  </data>
+  <data name="&gt;&gt;editDateTimePickerDate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 186</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 64</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.Name" xml:space="preserve">
+    <value>editTableLayoutPanelDatefield</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.Parent" xml:space="preserve">
+    <value>editTableLayoutPanelLeft</value>
+  </data>
+  <data name="&gt;&gt;editTableLayoutPanelDatefield.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="editTableLayoutPanelDatefield.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editCheckBoxTodaydate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editDateTimePickerDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,62,686565,Percent,37,313435" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="editCheckBoxTodaydate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -978,39 +1527,6 @@
   </data>
   <data name="&gt;&gt;editDateTimePickerDate.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 186</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 64</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelDatefield.Name" xml:space="preserve">
-    <value>editTableLayoutPanelDatefield</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelDatefield.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelDatefield.Parent" xml:space="preserve">
-    <value>editTableLayoutPanelLeft</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelDatefield.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="editTableLayoutPanelDatefield.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editCheckBoxTodaydate" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editDateTimePickerDate" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,62,686565,Percent,37,313435" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="editTextBoxName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -1216,74 +1732,8 @@
   <data name="&gt;&gt;editTextBoxId.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="editTableLayoutPanelLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="editTableLayoutPanelLeft.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="editTableLayoutPanelLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>356, 250</value>
-  </data>
-  <data name="editTableLayoutPanelLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelLeft.Name" xml:space="preserve">
-    <value>editTableLayoutPanelLeft</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelLeft.Parent" xml:space="preserve">
-    <value>editGroupBoxModDetails</value>
-  </data>
-  <data name="&gt;&gt;editTableLayoutPanelLeft.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="editTableLayoutPanelLeft.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="editTableLayoutPanelDatefield" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editLabelId" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelDate" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editLabelDescription" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxDescription" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="editTextBoxId" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,90,AutoSize,0" /&gt;&lt;Rows Styles="Percent,24,998129,Percent,25,000628,Percent,25,000628,Percent,25,000628" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="editGroupBoxModDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 78</value>
-  </data>
-  <data name="editGroupBoxModDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>876, 268</value>
-  </data>
-  <data name="editGroupBoxModDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="editGroupBoxModDetails.Text" xml:space="preserve">
-    <value>Szczegóły</value>
-  </data>
-  <data name="&gt;&gt;editGroupBoxModDetails.Name" xml:space="preserve">
-    <value>editGroupBoxModDetails</value>
-  </data>
-  <data name="&gt;&gt;editGroupBoxModDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;editGroupBoxModDetails.Parent" xml:space="preserve">
-    <value>tabPageEdit</value>
-  </data>
-  <data name="&gt;&gt;editGroupBoxModDetails.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="editGroupBoxListing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
-  </data>
-  <data name="editComboBoxListing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="editComboBoxListing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 20</value>
-  </data>
-  <data name="editComboBoxListing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="editComboBoxListing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>853, 23</value>
-  </data>
-  <data name="editComboBoxListing.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;editComboBoxListing.Name" xml:space="preserve">
     <value>editComboBoxListing</value>
@@ -1321,58 +1771,31 @@
   <data name="&gt;&gt;editGroupBoxListing.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tabPageEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
+  <data name="editComboBoxListing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="tabPageEdit.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="editComboBoxListing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 20</value>
   </data>
-  <data name="tabPageEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>913, 409</value>
+  <data name="editComboBoxListing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
   </data>
-  <data name="tabPageEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="editComboBoxListing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>853, 23</value>
   </data>
-  <data name="tabPageEdit.Text" xml:space="preserve">
-    <value>Modyfikacja</value>
+  <data name="editComboBoxListing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;tabPageEdit.Name" xml:space="preserve">
-    <value>tabPageEdit</value>
+  <data name="&gt;&gt;editComboBoxListing.Name" xml:space="preserve">
+    <value>editComboBoxListing</value>
   </data>
-  <data name="&gt;&gt;tabPageEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;editComboBoxListing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPageEdit.Parent" xml:space="preserve">
-    <value>tabControlMain</value>
+  <data name="&gt;&gt;editComboBoxListing.Parent" xml:space="preserve">
+    <value>editGroupBoxListing</value>
   </data>
-  <data name="&gt;&gt;tabPageEdit.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabControlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControlMain.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>115, 20</value>
-  </data>
-  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>921, 437</value>
-  </data>
-  <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabControlMain.Name" xml:space="preserve">
-    <value>tabControlMain</value>
-  </data>
-  <data name="&gt;&gt;tabControlMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;editComboBoxListing.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="saveFileDialogMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
